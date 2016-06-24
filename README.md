@@ -1,5 +1,7 @@
 # LocateNotReferenced
-UnityのAssetでどこからも参照の無いAssetを見つける
+UnityのAssetでどこからも参照の無いAssetを見つける  
+もしくは、とあるAssetがどこから参照されているかを見つける  
+![img1.png](./image/usage.gif)
 「Select DepenDensies」 の逆
 
 ### 使いかた
