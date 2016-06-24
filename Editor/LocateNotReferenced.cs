@@ -189,7 +189,7 @@ public class LocateNotReferenced : EditorWindow
 		p.BeginErrorReadLine ();
 
 		//処理終了まで待つ　引数：タイムアウト時間
-		p.WaitForExit (5 * 1000); //これ、コルーチンのようなもの
+		p.WaitForExit (1 * 1000); //これ、コルーチンのようなもの
 	}
 
 	/// <summary>
