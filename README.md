@@ -1,4 +1,8 @@
 # LocateNotReferenced
+「この画像はどこかで使ってるのかな？」  
+「このマテリアルはどのprefabで使われてるんだろう？」  
+といった時に探してくれるツールです。  
+  
 UnityのAssetでどこからも参照の無いAssetを見つける  
 もしくは、とあるAssetがどこから参照されているかを見つける  
 ![img1.png](./image/usage.gif)
