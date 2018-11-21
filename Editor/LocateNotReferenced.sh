@@ -1,9 +1,7 @@
 #!/bin/bash
-metaFormat="*.mat"
 for var in "${@:2}"
 do
-	# $var は .meta パス
-	for guid in $(grep "guid: \([0-9]\|[a-z]\)" "$var")
+	for guid in $(grep "guid: \([0-9]\|[a-z]\)" "$var" | sed -e "s/[\r\n]\+//g")
 	do
 		if [ "$guid" != "guid:" ]
 			then 
